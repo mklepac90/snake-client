@@ -26,6 +26,10 @@ handleUserInput = (key) => {
     connection.write('Move: left');
   } else if (key === '\u0064') {
     connection.write('Move: right');
+  } else if (key === '\u0065') {
+    connection.write('Say: Hello!');
+  } else if (key === '\u0071') {
+    connection.write('Say: Sup?')
   }
 };
 
